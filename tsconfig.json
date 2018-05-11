@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "target": "es2015",
+    "sourceMap": true,
+    "allowJs": true,
+    "types": [
+      "node",
+      "react",
+      "weex",
+      "rax",
+      "rax-view"
+    ],
+    "lib": [
+      "dom",
+      "es6",
+      "es2015",
+      "es2015.promise"
+    ],
+    "jsxFactory": "createElement"
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

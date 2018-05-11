@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/*
+Would skip repository wuxp_rax_comopnents/
+node_modules/
+package-lock.json
